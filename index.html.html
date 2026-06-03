@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<!-- ─── SEO ─── -->
+<title>Ivoree Glare Bating — Virtual Assistant & Content Creator | Cebu, Philippines</title>
+<meta name="description" content="Reliable, English-fluent Virtual Assistant, Appointment Setter & Content Creator based in Cebu, Philippines. Real outbound calling experience, 4+ years freelance consistency, zero missed deadlines."/>
+<meta name="keywords" content="Virtual Assistant Philippines, Appointment Setter, Cold Caller, Content Creator, ESL Teacher, Cebu VA, Freelance VA, Remote Worker, Canva Editor, CapCut Editor"/>
+<meta name="author" content="Ivoree Glare Bating"/>
+<meta name="robots" content="index, follow"/>
+
+<!-- ─── OPEN GRAPH (Facebook, LinkedIn previews) ─── -->
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Ivoree Glare Bating — Virtual Assistant & Content Creator"/>
+<meta property="og:description" content="Reliable VA, Appointment Setter & Content Creator from Cebu, Philippines. Real cold calling experience. 4+ years freelance. Zero missed deadlines."/>
+<meta property="og:url" content="https://ivoreeglare.netlify.app"/>
+<meta property="og:locale" content="en_PH"/>
+
+<!-- ─── TWITTER CARD ─── -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Ivoree Glare Bating — Virtual Assistant & Content Creator"/>
+<meta name="twitter:description" content="Reliable VA, Appointment Setter & Content Creator from Cebu, Philippines. Real cold calling experience. 4+ years freelance. Zero missed deadlines."/>
+
+<!-- ─── FAVICON (IG monogram) ─── -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%230D0D0D'/><text x='50%' y='54%' dominant-baseline='middle' text-anchor='middle' font-family='Georgia,serif' font-size='14' font-weight='700' fill='%23C0392B'>IG</text></svg>"/>
+<link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%230D0D0D'/><text x='50%' y='54%' dominant-baseline='middle' text-anchor='middle' font-family='Georgia,serif' font-size='14' font-weight='700' fill='%23C0392B'>IG</text></svg>"/>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;0,700;1,300&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<style>
+:root {
+  --black:#0D0D0D;
+  --white:#FAFAFA;
+  --red:#C0392B;
+  --red2:#A93226;
+  --gold:#C9A84C;
+  --gray:#6C6C6C;
+  --light:#F4F1EE;
+  --border:#E0DADA;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:'Inter',sans-serif;background:var(--white);color:var(--black);overflow-x:hidden;}
+
+/* ─── NAV ─── */
+nav{
+  position:fixed;top:0;left:0;right:0;z-index:100;
+  display:flex;justify-content:space-between;align-items:center;
+  padding:24px 60px;
+  background:rgba(250,250,250,0.92);backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--border);
+}
+.nav-logo{font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:700;letter-spacing:2px;color:var(--black);}
+.nav-logo span{color:var(--red);}
+.nav-links{display:flex;gap:36px;}
+.nav-links a{font-size:13px;font-weight:500;letter-spacing:1.5px;text-transform:uppercase;color:var(--gray);text-decoration:none;transition:color .2s;}
+.nav-links a:hover{color:var(--red);}
+
+/* ─── HERO ─── */
+.hero{
+  min-height:100vh;
+  display:grid;grid-template-columns:1fr 1fr;
+  padding-top:88px;
+}
+.hero-left{
+  background:var(--black);
+  display:flex;flex-direction:column;justify-content:center;
+  padding:80px 70px;
+  position:relative;overflow:hidden;
+}
+.hero-left::after{
+  content:'IG';
+  font-family:'Cormorant Garamond',serif;
+  font-size:300px;font-weight:700;
+  color:rgba(255,255,255,0.03);
+  position:absolute;bottom:-40px;right:-30px;
+  line-height:1;pointer-events:none;
+}
+.hero-eyebrow{
+  display:inline-flex;align-items:center;gap:10px;
+  font-size:11px;font-weight:600;letter-spacing:3px;text-transform:uppercase;
+  color:var(--gold);margin-bottom:32px;
+}
+.hero-eyebrow::before{content:'';width:30px;height:1px;background:var(--gold);}
+.hero h1{
+  font-family:'Cormorant Garamond',serif;
+  font-size:clamp(52px,6vw,80px);font-weight:300;
+  color:var(--white);line-height:1.1;
+  margin-bottom:8px;
+}
+.hero h1 strong{font-weight:700;display:block;}
+.hero-title-tag{
+  font-size:13px;font-weight:500;letter-spacing:2px;text-transform:uppercase;
+  color:rgba(255,255,255,0.4);margin-bottom:40px;margin-top:16px;
+}
+.hero-desc{font-size:16px;color:rgba(255,255,255,0.6);line-height:1.8;max-width:420px;margin-bottom:48px;}
+.hero-btns{display:flex;gap:16px;flex-wrap:wrap;}
+.btn{
+  padding:14px 32px;font-size:13px;font-weight:600;
+  letter-spacing:1.5px;text-transform:uppercase;
+  text-decoration:none;cursor:pointer;border:none;
+  transition:all .3s;
+}
+.btn-red{background:var(--red);color:#fff;}
+.btn-red:hover{background:var(--red2);transform:translateY(-2px);}
+.btn-ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,0.25);}
+.btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,0.08);}
+
+.hero-right{
+  background:var(--light);
+  display:flex;flex-direction:column;justify-content:flex-end;
+  padding:60px 70px;position:relative;
+}
+.hero-right-top{
+  flex:1;display:flex;align-items:center;justify-content:center;
+  padding-top:40px;
+}
+.hero-photo-frame{
+  width:280px;height:340px;
+  border:1px solid var(--border);
+  position:relative;
+  display:flex;align-items:center;justify-content:center;
+  background:#fff;
+  flex-direction:column;gap:12px;
+}
+.hero-photo-frame::after{
+  content:'';position:absolute;bottom:-12px;right:-12px;
+  width:100%;height:100%;
+  border:1px solid var(--red);
+  z-index:-1;
+}
+.hero-photo-frame span{font-size:56px;}
+.hero-photo-frame p{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--gray);}
+.hero-stats{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:0;border-top:1px solid var(--border);
+}
+.h-stat{padding:28px 20px;border-right:1px solid var(--border);}
+.h-stat:last-child{border-right:none;}
+.h-stat-num{font-family:'Cormorant Garamond',serif;font-size:36px;font-weight:700;color:var(--black);}
+.h-stat-label{font-size:11px;color:var(--gray);margin-top:4px;letter-spacing:.5px;line-height:1.5;}
+
+/* ─── MARQUEE ─── */
+.marquee-strip{
+  background:var(--red);padding:16px 0;overflow:hidden;
+  display:flex;gap:0;
+}
+.marquee-inner{
+  display:flex;gap:48px;align-items:center;
+  animation:marquee 22s linear infinite;white-space:nowrap;
+}
+@keyframes marquee{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+.marquee-item{
+  font-size:13px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#fff;
+}
+.marquee-dot{width:5px;height:5px;background:rgba(255,255,255,0.5);border-radius:50%;}
+
+/* ─── SECTIONS ─── */
+.s{padding:100px 60px;}
+.s-label{
+  font-size:11px;font-weight:700;letter-spacing:4px;text-transform:uppercase;
+  color:var(--red);margin-bottom:16px;display:flex;align-items:center;gap:12px;
+}
+.s-label::after{content:'';flex:1;max-width:40px;height:1px;background:var(--red);}
+.s-title{
+  font-family:'Cormorant Garamond',serif;
+  font-size:clamp(36px,4vw,52px);font-weight:600;
+  line-height:1.15;color:var(--black);margin-bottom:20px;
+}
+.s-sub{font-size:16px;color:var(--gray);line-height:1.8;max-width:560px;}
+
+/* ─── SERVICES ─── */
+.services{background:#fff;}
+.svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:64px;border:1px solid var(--border);}
+.svc-card{
+  padding:48px 40px;border-right:1px solid var(--border);
+  transition:all .3s;position:relative;overflow:hidden;
+}
+.svc-card:last-child{border-right:none;}
+.svc-card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:2px;
+  background:var(--red);transform:scaleX(0);transition:transform .4s;
+  transform-origin:left;
+}
+.svc-card:hover::before{transform:scaleX(1);}
+.svc-card:hover{background:var(--light);}
+.svc-num{
+  font-family:'Cormorant Garamond',serif;font-size:56px;font-weight:700;
+  color:var(--border);line-height:1;margin-bottom:24px;
+}
+.svc-icon{font-size:32px;margin-bottom:20px;}
+.svc-card h3{
+  font-family:'Cormorant Garamond',serif;font-size:24px;font-weight:600;
+  color:var(--black);margin-bottom:12px;
+}
+.svc-card p{font-size:14px;color:var(--gray);line-height:1.8;margin-bottom:24px;}
+.svc-tags{display:flex;flex-wrap:wrap;gap:8px;}
+.svc-tag{
+  font-size:11px;font-weight:600;letter-spacing:1px;text-transform:uppercase;
+  border:1px solid var(--border);color:var(--gray);padding:5px 12px;
+  transition:all .2s;
+}
+.svc-tag:hover{border-color:var(--red);color:var(--red);}
+
+/* ─── EXPERIENCE ─── */
+.exp{background:var(--black);}
+.exp .s-label{color:var(--gold);}
+.exp .s-label::after{background:var(--gold);}
+.exp .s-title{color:var(--white);}
+.exp .s-sub{color:rgba(255,255,255,0.5);}
+.exp-list{margin-top:64px;display:flex;flex-direction:column;gap:0;}
+.exp-item{
+  display:grid;grid-template-columns:200px 1fr;gap:60px;
+  padding:48px 0;border-top:1px solid rgba(255,255,255,0.08);
+  transition:all .3s;
+}
+.exp-item:hover .exp-role{color:var(--gold);}
+.exp-meta{padding-top:4px;}
+.exp-company{font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--red);margin-bottom:8px;}
+.exp-date{font-size:13px;color:rgba(255,255,255,0.3);}
+.exp-role{
+  font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:600;
+  color:var(--white);margin-bottom:16px;transition:color .3s;
+}
+.exp-bullets{list-style:none;}
+.exp-bullets li{
+  font-size:14px;color:rgba(255,255,255,0.55);line-height:1.8;
+  padding-left:20px;position:relative;margin-bottom:6px;
+}
+.exp-bullets li::before{content:'—';position:absolute;left:0;color:var(--red);}
+
+/* ─── SKILLS ─── */
+.skills{background:var(--light);}
+.skills-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;margin-top:64px;}
+.skill-group h3{
+  font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:600;
+  color:var(--black);margin-bottom:32px;padding-bottom:16px;
+  border-bottom:1px solid var(--border);
+}
+.skill-row{margin-bottom:20px;}
+.skill-info{display:flex;justify-content:space-between;margin-bottom:8px;}
+.skill-name{font-size:13px;font-weight:500;color:var(--black);}
+.skill-pct{font-size:13px;color:var(--gray);}
+.skill-track{height:2px;background:var(--border);}
+.skill-fill{height:100%;background:var(--red);transition:width 1.5s ease;}
+
+/* ─── TOOLS ─── */
+.tools{background:#fff;}
+.tools-grid{display:flex;flex-wrap:wrap;gap:12px;margin-top:48px;}
+.tool{
+  font-size:13px;font-weight:500;
+  padding:10px 22px;border:1px solid var(--border);color:var(--gray);
+  transition:all .2s;
+}
+.tool:hover{border-color:var(--black);color:var(--black);}
+
+/* ─── WHY ─── */
+.why{background:var(--white);}
+.why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:64px;border:1px solid var(--border);}
+.why-card{padding:40px 32px;border-right:1px solid var(--border);transition:background .3s;}
+.why-card:last-child{border-right:none;}
+.why-card:hover{background:var(--light);}
+.why-num{
+  font-family:'Cormorant Garamond',serif;font-size:48px;font-weight:700;
+  color:var(--red);opacity:.2;line-height:1;margin-bottom:20px;
+}
+.why-card h4{font-size:15px;font-weight:600;color:var(--black);margin-bottom:10px;}
+.why-card p{font-size:13px;color:var(--gray);line-height:1.8;}
+
+/* ─── CTA ─── */
+.cta{
+  background:var(--black);padding:140px 60px;
+  display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;
+}
+.cta-left h2{
+  font-family:'Cormorant Garamond',serif;
+  font-size:clamp(40px,5vw,64px);font-weight:300;
+  color:var(--white);line-height:1.15;
+}
+.cta-left h2 em{font-style:italic;color:var(--gold);}
+.cta-right{display:flex;flex-direction:column;gap:20px;}
+.contact-row{
+  display:flex;align-items:flex-start;gap:16px;
+  padding-bottom:20px;border-bottom:1px solid rgba(255,255,255,0.08);
+}
+.contact-label{font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,0.3);margin-bottom:4px;}
+.contact-val{font-size:15px;color:var(--white);}
+.contact-val a{color:var(--gold);text-decoration:none;}
+.cta-btns{display:flex;gap:16px;margin-top:12px;}
+
+/* ─── RESPONSIVE ─── */
+@media(max-width:900px){
+  nav{padding:20px 24px;}
+  .hero{grid-template-columns:1fr;}
+  .hero-right{display:none;}
+  .hero-left{padding:80px 32px;}
+  .s{padding:64px 24px;}
+  .svc-grid{grid-template-columns:1fr;}
+  .svc-card{border-right:none;border-bottom:1px solid var(--border);}
+  .exp-item{grid-template-columns:1fr;gap:16px;}
+  .skills-grid{grid-template-columns:1fr;gap:48px;}
+  .why-grid{grid-template-columns:1fr 1fr;}
+  .why-card:nth-child(2){border-right:none;}
+  .why-card:nth-child(3){border-right:1px solid var(--border);}
+  .cta{grid-template-columns:1fr;padding:80px 24px;gap:48px;}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">I<span>.</span>G</div>
+  <div class="nav-links">
+    <a href="#services">Services</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-left">
+    <div class="hero-eyebrow">Available for Remote Work</div>
+    <h1>Ivoree<strong>Glare Bating</strong></h1>
+    <div class="hero-title-tag">Virtual Assistant · Appointment Setter · Content Creator</div>
+    <p class="hero-desc">A reliable, English-fluent remote professional from Cebu, Philippines — with real outbound calling experience, 4+ years of freelance consistency, and a clean eye for content.</p>
+    <div class="hero-btns">
+      <a href="mailto:ivoreeglare.reva@gmail.com" class="btn btn-red">Hire Me</a>
+      <a href="https://linkedin.com/in/ivoreeglarebating" class="btn btn-ghost">LinkedIn ↗</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="hero-right-top">
+      <div class="hero-photo-frame">
+        <span>🪞</span>
+        <p>Your photo here</p>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="h-stat"><div class="h-stat-num">4+</div><div class="h-stat-label">Years Freelance</div></div>
+      <div class="h-stat"><div class="h-stat-num">14+</div><div class="h-stat-label">Months Consistent Delivery</div></div>
+      <div class="h-stat"><div class="h-stat-num">100%</div><div class="h-stat-label">On-Time Rate</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- MARQUEE -->
+<div class="marquee-strip">
+  <div class="marquee-inner">
+    <span class="marquee-item">Cold Calling</span><span class="marquee-dot"></span>
+    <span class="marquee-item">Appointment Setting</span><span class="marquee-dot"></span>
+    <span class="marquee-item">Virtual Assistance</span><span class="marquee-dot"></span>
+    <span class="marquee-item">ESL Teaching</span><span class="marquee-dot"></span>
+    <span class="marquee-item">Content Creation</span><span class="marquee-dot"></span>
+    <span class="marquee-item">Canva & CapCut</span><span class="marquee-dot"></span>
+    <span class="marquee-item">Reels Editing</span><span class="marquee-dot"></span>
+    <span class="marquee-item">Email Management</span><span class="marquee-dot"></span>
+    <!-- Duplicate for infinite loop -->
+    <span class="marquee-item">Cold Calling</span><span class="marquee-dot"></span>
+    <span class="marquee-item">Appointment Setting</span><span class="marquee-dot"></span>
+    <span class="marquee-item">Virtual Assistance</span><span class="marquee-dot"></span>
+    <span class="marquee-item">ESL Teaching</span><span class="marquee-dot"></span>
+    <span class="marquee-item">Content Creation</span><span class="marquee-dot"></span>
+    <span class="marquee-item">Canva & CapCut</span><span class="marquee-dot"></span>
+    <span class="marquee-item">Reels Editing</span><span class="marquee-dot"></span>
+    <span class="marquee-item">Email Management</span><span class="marquee-dot"></span>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section class="s services" id="services">
+  <div class="s-label">What I Do</div>
+  <h2 class="s-title">Services Built on<br/><em style="font-family:'Cormorant Garamond',serif;font-style:italic;color:var(--red)">Real Experience</em></h2>
+  <p class="s-sub">Every service is backed by hands-on, professional experience — not just courses.</p>
+  <div class="svc-grid">
+    <div class="svc-card">
+      <div class="svc-num">01</div>
+      <div class="svc-icon">📞</div>
+      <h3>Cold Calling &<br/>Appointment Setting</h3>
+      <p>Real outbound calling experience from Dynata Global. I follow your script, handle objections naturally, and book qualified appointments directly into your calendar.</p>
+      <div class="svc-tags">
+        <span class="svc-tag">Outbound Calls</span>
+        <span class="svc-tag">Script Execution</span>
+        <span class="svc-tag">Lead Follow-Up</span>
+        <span class="svc-tag">Calendar Booking</span>
+      </div>
+    </div>
+    <div class="svc-card">
+      <div class="svc-num">02</div>
+      <div class="svc-icon">💼</div>
+      <h3>Virtual<br/>Assistance</h3>
+      <p>Email management, data entry, scheduling, and task coordination — handled with precision so you can focus on what matters most.</p>
+      <div class="svc-tags">
+        <span class="svc-tag">Email Management</span>
+        <span class="svc-tag">Data Entry</span>
+        <span class="svc-tag">Scheduling</span>
+        <span class="svc-tag">Google Workspace</span>
+      </div>
+    </div>
+    <div class="svc-card">
+      <div class="svc-num">03</div>
+      <div class="svc-icon">🎬</div>
+      <h3>Content<br/>Creation</h3>
+      <p>Short-form Reels and social content with zero missed deadlines. 14+ months of consistent monthly delivery for a restaurant client in Cebu.</p>
+      <div class="svc-tags">
+        <span class="svc-tag">Reels Editing</span>
+        <span class="svc-tag">Canva Design</span>
+        <span class="svc-tag">CapCut</span>
+        <span class="svc-tag">Social Media</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="s exp" id="experience">
+  <div class="s-label">Work History</div>
+  <h2 class="s-title">Experience That<br/><em style="font-family:'Cormorant Garamond',serif;font-style:italic;color:var(--gold)">Speaks for Itself</em></h2>
+  <p class="s-sub">Every role I've held has directly built the skills I offer clients today.</p>
+  <div class="exp-list">
+    <div class="exp-item">
+      <div class="exp-meta">
+        <div class="exp-company">Dynata Global</div>
+        <div class="exp-date">Sep 2016 – Oct 2017</div>
+      </div>
+      <div>
+        <div class="exp-role">Market Research Interviewer</div>
+        <ul class="exp-bullets">
+          <li>Conducted high-volume outbound calls daily using structured scripts — the exact foundation of cold calling and appointment setting</li>
+          <li>Handled real-time objections and off-script responses across political, consumer, and satisfaction surveys</li>
+          <li>Maintained accurate call records and consistently hit daily targets</li>
+        </ul>
+      </div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-meta">
+        <div class="exp-company">Warabi Mochi</div>
+        <div class="exp-date">Mar 2024 – Present</div>
+      </div>
+      <div>
+        <div class="exp-role">Reels Editor & Content Creator</div>
+        <ul class="exp-bullets">
+          <li>Delivering 10+ polished Reels per month for Facebook and Instagram — 14+ consecutive months, zero missed deadlines</li>
+          <li>Independently manages content schedule, client communication, and final delivery</li>
+          <li>Produces on-brand short-form video content using Canva and CapCut</li>
+        </ul>
+      </div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-meta">
+        <div class="exp-company">Self-Employed</div>
+        <div class="exp-date">Feb 2021 – Present</div>
+      </div>
+      <div>
+        <div class="exp-role">ESL Teacher (Freelance)</div>
+        <ul class="exp-bullets">
+          <li>Maintained consistent freelance clients for 4+ years through reliability and clear English communication</li>
+          <li>Managed own scheduling, lesson planning, and student progress tracking remotely</li>
+          <li>Demonstrates professional-level English fluency for international client work</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="s skills">
+  <div class="s-label">Capabilities</div>
+  <h2 class="s-title">Skills &<br/>Proficiency</h2>
+  <div class="skills-grid">
+    <div class="skill-group">
+      <h3>Communication & Calling</h3>
+      <div class="skill-row"><div class="skill-info"><span class="skill-name">Outbound Calling & Scripts</span><span class="skill-pct">90%</span></div><div class="skill-track"><div class="skill-fill" style="width:90%"></div></div></div>
+      <div class="skill-row"><div class="skill-info"><span class="skill-name">Objection Handling</span><span class="skill-pct">85%</span></div><div class="skill-track"><div class="skill-fill" style="width:85%"></div></div></div>
+      <div class="skill-row"><div class="skill-info"><span class="skill-name">English Communication</span><span class="skill-pct">95%</span></div><div class="skill-track"><div class="skill-fill" style="width:95%"></div></div></div>
+      <div class="skill-row"><div class="skill-info"><span class="skill-name">Client Relations</span><span class="skill-pct">88%</span></div><div class="skill-track"><div class="skill-fill" style="width:88%"></div></div></div>
+    </div>
+    <div class="skill-group">
+      <h3>Admin & Content</h3>
+      <div class="skill-row"><div class="skill-info"><span class="skill-name">Canva Design</span><span class="skill-pct">90%</span></div><div class="skill-track"><div class="skill-fill" style="width:90%"></div></div></div>
+      <div class="skill-row"><div class="skill-info"><span class="skill-name">Video Editing (CapCut)</span><span class="skill-pct">85%</span></div><div class="skill-track"><div class="skill-fill" style="width:85%"></div></div></div>
+      <div class="skill-row"><div class="skill-info"><span class="skill-name">Google Workspace</span><span class="skill-pct">80%</span></div><div class="skill-track"><div class="skill-fill" style="width:80%"></div></div></div>
+      <div class="skill-row"><div class="skill-info"><span class="skill-name">Data Entry & Organization</span><span class="skill-pct">88%</span></div><div class="skill-track"><div class="skill-fill" style="width:88%"></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- TOOLS -->
+<section class="s tools">
+  <div class="s-label">Tech Stack</div>
+  <h2 class="s-title">Tools I Use Daily</h2>
+  <div class="tools-grid">
+    <div class="tool">Gmail</div><div class="tool">Google Workspace</div>
+    <div class="tool">Google Sheets</div><div class="tool">Microsoft Office</div>
+    <div class="tool">Canva</div><div class="tool">CapCut</div>
+    <div class="tool">Zoom</div><div class="tool">Slack</div>
+    <div class="tool">Google Meet</div><div class="tool">WhatsApp</div>
+    <div class="tool">Facebook / Instagram</div><div class="tool">TikTok</div>
+    <div class="tool">Claude AI</div><div class="tool">ChatGPT</div>
+  </div>
+</section>
+
+<!-- WHY ME -->
+<section class="s why">
+  <div class="s-label">Why Choose Me</div>
+  <h2 class="s-title">4 Reasons Clients<br/><em style="font-family:'Cormorant Garamond',serif;font-style:italic;color:var(--red)">Keep Coming Back</em></h2>
+  <div class="why-grid">
+    <div class="why-card"><div class="why-num">01</div><h4>I've Done Cold Calling Professionally</h4><p>My Dynata experience isn't a certificate — it's real outbound calling at volume, with real scripts, for real companies.</p></div>
+    <div class="why-card"><div class="why-num">02</div><h4>Fluent English Speaker</h4><p>4+ years teaching English means I communicate clearly and professionally with any international client or lead.</p></div>
+    <div class="why-card"><div class="why-num">03</div><h4>Zero Missed Deadlines</h4><p>14+ months of monthly content delivery for one client. Not once late. That's not luck — that's how I work.</p></div>
+    <div class="why-card"><div class="why-num">04</div><h4>Script-Ready, Day One</h4><p>Send me your process and I'll follow it precisely, ask smart questions, and improve over time. No handholding needed.</p></div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta" id="contact">
+  <div class="cta-left">
+    <h2>Let's Build<br/>Something <em>Great</em><br/>Together.</h2>
+  </div>
+  <div class="cta-right">
+    <div class="contact-row">
+      <div>
+        <div class="contact-label">Email</div>
+        <div class="contact-val"><a href="mailto:ivoreeglare.reva@gmail.com">ivoreeglare.reva@gmail.com</a></div>
+      </div>
+    </div>
+    <div class="contact-row">
+      <div>
+        <div class="contact-label">Phone / WhatsApp</div>
+        <div class="contact-val">+63 991 318 4852</div>
+      </div>
+    </div>
+    <div class="contact-row">
+      <div>
+        <div class="contact-label">Location</div>
+        <div class="contact-val">Lapu-lapu City, Cebu, Philippines</div>
+      </div>
+    </div>
+    <div class="contact-row">
+      <div>
+        <div class="contact-label">Find Me On</div>
+        <div class="contact-val"><a href="https://linkedin.com/in/ivoreeglarebating">LinkedIn</a> · OnlineJobs.ph · Upwork · Indeed</div>
+      </div>
+    </div>
+    <div class="cta-btns">
+      <a href="mailto:ivoreeglare.reva@gmail.com" class="btn btn-red">Send a Message</a>
+      <a href="https://linkedin.com/in/ivoreeglarebating" class="btn btn-ghost">LinkedIn ↗</a>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
